@@ -17,6 +17,9 @@ function makeGrid(size) {
 
         gridElement.addEventListener("click", () => gridElement.style.backgroundColor = "yellow")
 
+        gridElement.addEventListener("mouseover", () => gridElement.style.backgroundColor = "#A9A9A9");
+        //gridElement.addEventListener("mouseout", () => gridElement.style.backgroundColor = "gray");
+
         container.appendChild(gridElement);
     }
 }
